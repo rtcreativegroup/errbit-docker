@@ -14,7 +14,7 @@ RUN /usr/local/ruby-build/bin/ruby-build $RUBY_VERSION /opt/ruby
 ENV RACK_ENV production
 ENV RAILS_ENV production
 ENV USE_ENV true
-ENV ERRBIT_EMAIL_FROM errbit@example.com
+ENV ERRBIT_EMAIL_FROM errbit@rtcreativegroup.com
 
 # Install bundler
 RUN /opt/ruby/bin/gem install bundler
