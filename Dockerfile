@@ -37,6 +37,8 @@ WORKDIR /opt/errbit/app
 RUN /opt/ruby/bin/bundle install --deployment
 RUN PATH=/opt/ruby/bin:$PATH bundle exec rake assets:precompile
 
+ADD config.yml /opt/errbit/app/config/config.yml
+
 ADD launch.bash /opt/launch.bash
 EXPOSE 3000
 ENTRYPOINT   ["/opt/launch.bash"]
