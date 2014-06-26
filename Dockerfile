@@ -16,6 +16,7 @@ ENV RAILS_ENV production
 ENV USE_ENV true
 ENV ERRBIT_EMAIL_FROM errbit@rtpcore.com
 ENV SMTP_SERVER jack.rtpcore.com
+ENV SMTP_PORT 25
 
 # Install bundler
 RUN /opt/ruby/bin/gem install bundler
