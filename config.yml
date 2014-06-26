@@ -1,0 +1,4 @@
+smtp_settings:
+  :address:              'jack.rtpcore.com'
+  :domain:               'errbit.rtpcore.com'
+  :enable_starttls_auto: false
